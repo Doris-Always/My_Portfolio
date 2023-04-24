@@ -2,6 +2,7 @@ import next from 'next'
 import Footer from './components/footer'
 import './globals.css'
 import Header from './components/header'
+import HomePage from './page'
 export const metadata = {
   title: 'Doris portfolio website',
   description: 'Software engineer',
@@ -12,6 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    
       <body className='customised-container'>
         <Header/>
         <main>{children}</main>
