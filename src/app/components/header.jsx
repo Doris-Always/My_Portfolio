@@ -12,11 +12,7 @@ const Header = () => {
     function toggleMenu(){
         setIsopen(!isOpen)
     }
-    // const links = document.querySelectorAll('nav a')
-    // co
-    // function scrollIn () {
 
-    // }
     
   return (
     <header className='h-24'>

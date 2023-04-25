@@ -29,7 +29,7 @@ import {SiSpringboot} from 'react-icons/si'
          </div>
       </section>
       <section id='experience'>
-            <h1 className=' text-center'>MY SKILLLS</h1>
+            <h1 className=' text-center my-text'>MY SKILLLS</h1>
             <div className='card-container'>
                <div className='card'>
                   <FaJava className='icon-size'/>
