@@ -62,7 +62,7 @@ import Image from 'next/image';
                      
                   <h2 className='card-title'>A Hotel Management System</h2>
                      
-                  <p className='card-desc'>I built this with React and it's a collaborative work,with a team of 5,this project proves how i can collaborate with other software engineers,start a project from requirement gathering to hosting.</p>
+                  <p className='card-desc'>I built this with React and it is a collaborative work,with a team of 5,this project proves how i can collaborate with other software engineers,start a project from requirement gathering to hosting.</p>
                   </div>
                </a>
                <a href='https://doris-always.github.io/learning-react'>
@@ -74,7 +74,7 @@ import Image from 'next/image';
                <a href='https://github.com/doris-always/watchApp.git'>
                   <div className='project idea-3'>
                      <h2 className='card-title'>An Emergency App</h2>
-                     <p className='card-desc'>This was a collaborative work in my previous place of work.I remember finding this hard to do at the time,but it was this project that thought me about mobile first approach in designing a website.My former boss usually say,"Doris,it must be responsive even for Nokia touch...."</p>
+                     <p className='card-desc'>This was a collaborative work in my previous place of work.I remember finding this hard to do at the time,but it was this project that thought me about mobile first approach in designing a website.My former boss usually say, Doris,it must be responsive even for Nokia touch....</p>
                   </div>
                </a>
                <a href='https://Search-country-withme.netlify.app/'>
