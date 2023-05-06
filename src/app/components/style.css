@@ -2,33 +2,66 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+   padding: 10px;
+}
+.logo {
+    background-color: black;
+}
+.links {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .link{
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
    font-size: 25px;
-   color: rgb(119, 113, 113);
-   background-color: aliceblue;
+   position: relative;
+  
+ 
 }
-.link:hover{
-    z-index: 3;
-    color: black;
+
+.link .my-svg{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    z-index: 0;
+}
+.link .my-svg rect {
+    fill: none;
+    stroke: palevioletred;
+    stroke-width: 5;
+    width: 100%;
+    height: 100%;
+    stroke-dasharray: 100,50;
+    transition: 1.5s;
+}
+.link:hover .my-svg rect {
+    stroke-dashoffset: 300;
 }
 .designation{
     font-size: 12px;
-    color: gray;
+    color: pink;
 }
 .name{
     font-size: 18px;
     font-weight: 600;
+    color: white;
     font-family: 'PT Sans', sans-serif;
 }
 header{
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 .hidden-menu{
@@ -38,10 +71,10 @@ header{
    display: none;     
 }
 footer{
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
     height: 100px;
     padding-top: 2%;  
+    background-color: rgb(26, 24, 24);
 }
 .contact{
     display: flex;
@@ -51,22 +84,23 @@ footer{
 .footer{
     display: grid;
     grid-template-columns: 2fr 1fr;
+
    
 }
 .github{
     font-size: 30px;
-    color: green;
+    color: white;
 }
 .email{
  font-size: 30px;
- color: green;
+ color: white;
 }
 .linkedn{
-    color: rgb(0, 81, 255);
+    color: white;
     font-size: 30px;
 }
 .mobile{
-    color: green;
+    color: white;
     font-size: 30px;
 }
 .text{
@@ -98,7 +132,7 @@ footer{
         flex-direction: column;
         width: 50%;
         margin-top: 3%;
-        background-color: aliceblue;
+        background-color: black;
         position: absolute;
         z-index: 1;
 
@@ -116,9 +150,8 @@ footer{
     }
 
     .mob-route{
-        padding: 5px;
-        border-bottom: 1px solid white;
-        color: black;
+        padding: 8px;
+        color: pink;
     }
     
     
@@ -134,6 +167,10 @@ footer{
        
        
     
+    }
+    .logo {
+       width: 100%;
+       /* background-color: white; */
     }
     .name{
         font-size: 14px;

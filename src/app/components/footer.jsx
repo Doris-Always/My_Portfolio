@@ -4,7 +4,7 @@ import './style.css'
 import { FaGithub,FaEnvelope,FaLinkedinIn,FaMobileAlt,FaWhatsapp } from "react-icons/fa";
 const Footer = () =>{
     return(
-        <footer className=''>
+        <footer className='' >
             <div className='footer'>
                 <div className='text'>
                     <h6 className='contact-area'>Contact me</h6>

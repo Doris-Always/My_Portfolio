@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className='customised-container'>
         <Header/>
         <main>{children}</main>
-        <Footer/>
+       
       </body>
     </html>
   )
