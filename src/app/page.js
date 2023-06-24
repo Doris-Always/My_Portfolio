@@ -42,8 +42,10 @@ import Image from 'next/image';
          
             <div className='inner-div'>
                 <div className='about-writeup'>
-                   <p className='about-text'>As a software engineer, I possess extensive understanding of all phases of software development, as well as a commitment to clean coding practices and top-notch software architecture knowledge, problem solving, with a deep understanding of computer science concepts such as data structures, algorithms, complexity analysis. Through three years of experience working with software development teams at different levels both as an apprentice,student and self-learner, I have  my skills in software architecture and design, utilizing UML tools, SOLID principles, DRY principles, Test Driven Development Approach, and design patterns. </p>
-                   <p className='about-text'><b>SKILLS: </b>java,javaScript,python,Springboot,Django,Next js,React,Html,CSS,Bootstrap,Material Ui</p>
+                   <p className='about-text'>As a software engineer, I possess extensive understanding of all phases of software development, as well as a commitment to clean coding practices and top-notch software architecture knowledge, problem solving, with a deep understanding of computer science concepts such as data structures, algorithms, complexity analysis. <br/><br/>Through three years of experience working with software development teams at different levels both as an apprentice,student and self-learner, I have  my skills in software architecture and design, utilizing UML tools, SOLID principles, DRY principles, Test Driven Development Approach, and design patterns.
+                   
+                   </p>
+                  
                </div>
                <div className='my-pix'>
                   <Image className=' w-100' src={profile} alt='A picture of Doris,Smiling with a headset on her neck'/>
